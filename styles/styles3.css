@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+  align-items: center;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 46px 0px 76px;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+}
+
+a {
+  color: rgba(56, 56, 56, 1);
+  transition: 0.3s all;
+}
+
+a:hover {
+  color: blue;
+}
+
+#contato_btn {
+  border: 2px solid blue;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#contato_btn:hover {
+  background-color: blue;
+  color: white;
+}
+.titulo_contato {
+  padding: 2em 5em 4em;
+}
+
+.titulo_contato h1 {
+  font-size: 2em;
+  padding: 0px 0px 27px;
+}
+
+.titulo_contato p {
+  width: 21em;
+}
+
+.titulo_logo {
+  display: flex;
+  justify-content: space-between;
+  width: 44em;
+  padding: 2em;
+}
+
+.titulo_logo h1 {
+  color: #133e72;
+  font-size: 40px;
+}
+
+#form {
+  display: flex;
+  padding: 2em 3em 0em 3em;
+}
+
+#form.email {
+  padding: 0em 0em 1em 0em;
+  display: flex;
+  width: 40em;
+  justify-content: space-between;
+  display: flex;
+}

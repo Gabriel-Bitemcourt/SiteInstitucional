@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles3.css" />
+    <title>Contato</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/LOGO.svg" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./sobrenos.html">Sobre Nós</a></li>
+          <li><a href="./contato.html">Serviços</a></li>
+          <li><a href="./contato.html" id="contato_btn">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="titulo_contato">
+      <h1>Entre em contato</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga
+        delectus aperiam molestiae magni optio asperiores esse, commodi totam .
+      </p>
+    </section>
+
+    <section id="form">
+      <form class="formulario" action="" method="post">
+        <fieldset>
+          <legend>
+            <div class="titulo_logo">
+              <h1>Envie-nos uma mensagem</h1>
+              <img src="/assets/Vector 2.svg" alt="" />
+            </div>
+          </legend>
+          <label for="formulario">Nome</label>
+          <input placeholder="Ex: henrique Pires" type="text" />
+
+          <label>E-mail</label>
+          <input placeholder="Ex: seuemail@gmail.com" type="email" />
+
+          <legend>Ramo em que Atua</legend>
+          <input placeholder="Selecione" type="text" />
+          <select name="ramo" id="RamoDeAtua"></select>
+
+          <legend>Assunto</legend>
+          <label for="assunto">Investimento</label>
+          <input type="checkbox" />
+          <label for="contrataçao">Contratação</label>
+          <input type="checkbox" name="contrataçao" id="contrataçao" />
+
+          <legend>mensagem</legend>
+          <textarea
+            placeholder="Digite sua mensagem aqui."
+            style="height: 5em"
+            name="texto"
+            id="texto_usuario"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <div class="btn_form">
+            <input type="checkbox" />
+            <label for="">Li e concordo com a política de privacidade</label>
+            <button>Enviar</button>
+          </div>
+        </fieldset>
+      </form>
+
+      <div class="InfomContato">
+        <h1>Informações de contato</h1>
+        <div class="endereço">
+          <img src="../assets/Vectorlocal.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam soluta
+            quo sit doloremque temporibus illo beatae assumenda quasi cumque,
+            recusandae et magnam, porro alias ducimus magni. Rerum quaerat
+            asperiores explicabo.
+          </p>
+        </div>
+        <div class="numerocell">
+          <img src="../assets/Vectorcell.png" alt="" />
+          <p>(xx)xxxx-xxxx</p>
+        </div>
+        <div class="email">
+          <img src="../assets/Vector mens.png" alt="" />
+          <p>seeuemail@seuemil.com</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="imgenslogo">
+        <img src="./assets/LOGO.svg" alt="logo" />
+        <img src="./assets/LOGO.svg" alt="logo2" />
+      </div>
+      <p>Copyright 2019 Todos os direitos reservados à Lorem Ipsum.</p>
+    </footer>
+  </body>
+</html>

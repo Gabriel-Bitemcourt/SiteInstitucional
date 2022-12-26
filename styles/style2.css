@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+  align-items: center;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 46px 0px 76px;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+}
+
+a {
+  color: rgba(56, 56, 56, 1);
+  transition: 0.3s all;
+}
+
+a:hover {
+  color: blue;
+}
+
+#contato_btn {
+  border: 2px solid blue;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#contato_btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+#seçao1 {
+  background-image: url(../assets/BANNER\ AZUL\ DA\ PRA\ EXPORTAR.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+#seçao1 h1 {
+  font-size: 50px;
+  line-height: 40px;
+  height: 52px;
+  font-weight: 700;
+}
+
+#seçao1 p {
+  line-height: 25px;
+  font-size: 17px;
+  display: inline-block;
+  line-height: 31px;
+}
+
+.titulo {
+  color: white;
+  width: 45em;
+  height: 4em;
+  padding: 2em 9em 5em 9em;
+}
+
+.conteudo {
+  background-color: white;
+  height: 29em;
+  padding: 0em 0em 0em 5em;
+  width: 65em;
+  margin: 4em;
+}
+
+.img {
+  min-width: 170px;
+  padding: 2em 0em;
+}
+
+.paragrafo_imagen {
+  display: flex;
+  width: 65em;
+  height: 18em;
+}
+
+.logotean {
+  padding: 0em 8em 0em 1em;
+}
+
+#seçao2 {
+  display: flex;
+  padding: 10em;
+  background: #edf2f6;
+}
+
+.text_img {
+  display: flex;
+}
+
+footer {
+  padding: 3em 0em 5em 8em;
+}
+
+.imgenslogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  padding: 2em 0em;
+  color: black;
+}
+
+.titulos {
+  padding: 1em 14px;
+  font-size: 42px;
+  color: rgba(19, 62, 114, 1);
+}
+
+#seçao2 p {
+  color: rgba(137, 137, 137, 1);
+}
+
+.paragrafo_imagen {
+  color: #898989;
+}
